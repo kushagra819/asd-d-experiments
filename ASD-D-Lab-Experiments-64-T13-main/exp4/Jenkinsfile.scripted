@@ -1,0 +1,6 @@
+// Experiment 4 - Scripted pipeline (as in ASD&D_Experiment04_64.pdf)
+node {
+    stage('Hello') {
+        echo 'Hello, Scripted Jenkins Pipeline!'
+    }
+}

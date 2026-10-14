@@ -1,0 +1,11 @@
+// Experiment 4 - Declarative pipeline (as in ASD&D_Experiment04_64.pdf)
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello, Jenkins!!'
+            }
+        }
+    }
+}
